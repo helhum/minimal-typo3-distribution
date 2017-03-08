@@ -1,0 +1,12 @@
+{
+    "name": "test/ext",
+    "type": "typo3-cms-extension",
+    "description": "Test Ext",
+    "license": "GPL-2.0+",
+    "require": {
+        "typo3/cms-core": "^8.5"
+    },
+    "replace": {
+        "test_ext": "self.version"
+    }
+}
