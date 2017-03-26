@@ -1,0 +1,25 @@
+{
+    "name": "helhum/site-example",
+    "type": "typo3-cms-extension",
+    "description": "Example site distribution",
+    "authors": [
+        {
+            "name": "Helmut Hummel",
+            "email": "info@helhum.io",
+            "role": "Developer",
+            "homepage": "http://helhum.io"
+        }
+    ],
+    "license": "GPL-2.0+",
+    "require": {
+        "typo3/cms-core": "^6.2.14 || ^7.6 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helhum\\SiteExample\\": "Classes"
+        }
+    },
+    "replace": {
+        "site_example": "self.version"
+    }
+}

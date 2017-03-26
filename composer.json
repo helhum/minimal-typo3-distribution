@@ -1,15 +1,15 @@
 {
     "repositories": [
         { "type": "composer", "url": "https://composer.typo3.org/" },
-        { "type": "path", "url": "extensions/test_ext" }
+        { "type": "path", "url": "packages/*/" }
     ],
     "name": "test/dist",
-    "description" : "Test Dist",
+    "description" : "Minimum viable TYPO3 Composer distribution",
     "license": "GPL-2.0+",
     "require": {
         "typo3/cms": "^8.6",
         "helhum/typo3-console": "^4.2",
-        "test/ext": "@dev"
+        "helhum/site-example": "@dev"
     },
     "extra": {
         "helhum/typo3-console": {
