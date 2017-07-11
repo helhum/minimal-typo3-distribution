@@ -7,6 +7,7 @@
     "description" : "Minimum viable TYPO3 Composer distribution",
     "license": "GPL-2.0+",
     "require": {
+        "roave/security-advisories": "dev-master",
         "typo3/cms": "^7.6 || ^8.7",
         "helhum/typo3-console": "^4.6",
         "helhum/site-example": "@dev"
