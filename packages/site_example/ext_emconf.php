@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = array(
-  'title' => 'Site Demo',
-  'description' => 'Description for ext',
+  'title' => 'Site Example',
+  'description' => 'Site package example',
   'category' => 'Example Extensions',
   'author' => 'Helmut Hummel',
   'author_email' => 'info@helhum.io',
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
   array(
     'depends' =>
     array(
-      'typo3' => '7.5.0-7.99.99',
+      'typo3' => '7.6.0-8.7.99',
     ),
     'conflicts' =>
     array(
