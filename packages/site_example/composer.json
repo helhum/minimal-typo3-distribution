@@ -12,7 +12,20 @@
     ],
     "license": "GPL-2.0+",
     "require": {
-        "typo3/cms-core": "^7.6 || ^8.0"
+        "typo3/cms-core": "^8.7",
+        "typo3/cms-belog": "^8.7",
+        "typo3/cms-beuser": "^8.7",
+        "typo3/cms-context-help": "^8.7",
+        "typo3/cms-fluid-styled-content": "^8.7",
+        "typo3/cms-filelist": "^8.7",
+        "typo3/cms-info": "^8.7",
+        "typo3/cms-info-pagetsconfig": "^8.7",
+        "typo3/cms-lowlevel": "^8.7",
+        "typo3/cms-reports": "^8.7",
+        "typo3/cms-rte-ckeditor": "^8.7",
+        "typo3/cms-setup": "^8.7",
+        "typo3/cms-tstemplate": "^8.7",
+        "typo3/cms-viewpage": "^8.7"
     },
     "autoload": {
         "psr-4": {
