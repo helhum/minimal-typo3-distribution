@@ -7,8 +7,8 @@
     "description" : "Minimum viable TYPO3 Composer distribution",
     "license": "GPL-2.0+",
     "require": {
-        "typo3/cms": "^8.6",
-        "helhum/typo3-console": "^4.2",
+        "typo3/cms": "^7.6 || ^8.7",
+        "helhum/typo3-console": "^4.6",
         "helhum/site-example": "@dev"
     },
     "extra": {
