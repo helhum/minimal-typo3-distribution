@@ -11,8 +11,8 @@ changes some defaults.
 ## Installation
 
 ### For a distribution that pre-sets TYPO3 7LTS
-`composer require helhum/minimal-typo3-distribution ^7`
+`composer create-project helhum/minimal-typo3-distribution new-project ^7`
 
 ### For a distribution that pre-sets TYPO3 8LTS
-`composer require helhum/minimal-typo3-distribution ^8`
+`composer create-project helhum/minimal-typo3-distribution new-project ^8`
 
