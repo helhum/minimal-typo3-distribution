@@ -3,7 +3,7 @@
         { "type": "path", "url": "packages/*/" },
         { "type": "composer", "url": "https://composer.typo3.org/" }
     ],
-    "name": "test/dist",
+    "name": "helhum/minimal-typo3-distribution",
     "description" : "Minimum viable TYPO3 Composer distribution",
     "license": "GPL-2.0+",
     "require": {
