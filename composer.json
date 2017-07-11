@@ -1,7 +1,7 @@
 {
     "repositories": [
-        { "type": "composer", "url": "https://composer.typo3.org/" },
-        { "type": "path", "url": "packages/*/" }
+        { "type": "path", "url": "packages/*/" },
+        { "type": "composer", "url": "https://composer.typo3.org/" }
     ],
     "name": "test/dist",
     "description" : "Minimum viable TYPO3 Composer distribution",
