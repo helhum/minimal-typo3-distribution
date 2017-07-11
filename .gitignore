@@ -1,2 +1,8 @@
 /vendor
-/web
+/web/*
+!/web/typo3conf/
+/web/typo3conf/*
+!/web/typo3conf/LocalConfiguration.php
+!/web/typo3conf/ext
+!/web/typo3conf/l10n
+/web/typo3conf/ext/*
