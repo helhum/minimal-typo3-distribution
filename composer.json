@@ -11,6 +11,23 @@
         "helhum/typo3-console": "^4.6",
         "helhum/site-example": "@dev"
     },
+    "scripts": {
+        "package-states": [
+            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:generatepackagestates"
+        ],
+        "folder-structure": [
+            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:fixfolderstructure"
+        ],
+        "ext-setup": [
+            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:extensionsetupifpossible"
+
+        ],
+        "post-autoload-dump": [
+            "@package-states",
+            "@folder-structure",
+            "@ext-setup"
+        ]
+    },
     "extra": {
         "helhum/typo3-console": {
             "install-extension-dummy": false
