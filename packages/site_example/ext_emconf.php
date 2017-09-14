@@ -2,7 +2,7 @@
 $EM_CONF[$_EXTKEY] = array(
   'title' => 'Site Example',
   'description' => 'Site package example',
-  'category' => 'Example Extensions',
+  'category' => 'templates',
   'author' => 'Helmut Hummel',
   'author_email' => 'info@helhum.io',
   'author_company' => 'helhum.io',
