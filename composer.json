@@ -21,7 +21,6 @@
         ],
         "ext-setup": [
             "@php vendor/helhum/typo3-console/Scripts/typo3cms install:extensionsetupifpossible"
-
         ],
         "post-autoload-dump": [
             "@package-states",
