@@ -1,8 +1,7 @@
 /vendor
-/web/*
-!/web/typo3conf/
-/web/typo3conf/*
-!/web/typo3conf/LocalConfiguration.php
-!/web/typo3conf/ext
-!/web/typo3conf/l10n
-/web/typo3conf/ext/*
+/public
+/private/*
+!/private/typo3conf/
+/private/typo3conf/*
+!/private/typo3conf/LocalConfiguration.php
+!/private/typo3conf/l10n

@@ -8,33 +8,15 @@
     "license": "GPL-2.0+",
     "require": {
         "roave/security-advisories": "dev-master",
-        "typo3/cms": "^8.7",
-        "helhum/typo3-console": "^4.6",
+        "typo3/cms-core": "^8.7.9",
+        "helhum/typo3-secure-web": "^0.2.7",
+        "typo3-console/composer-auto-setup": "^0.3.5",
         "helhum/site-example": "@dev"
     },
-    "scripts": {
-        "package-states": [
-            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:generatepackagestates"
-        ],
-        "folder-structure": [
-            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:fixfolderstructure"
-        ],
-        "ext-setup": [
-            "@php vendor/helhum/typo3-console/Scripts/typo3cms install:extensionsetupifpossible"
-        ],
-        "post-autoload-dump": [
-            "@package-states",
-            "@folder-structure",
-            "@ext-setup"
-        ]
-    },
     "extra": {
-        "helhum/typo3-console": {
-            "install-extension-dummy": false
-        },
         "typo3/cms": {
-            "cms-package-dir": "{$vendor-dir}/typo3/cms",
-            "web-dir": "web"
+            "root-dir": "private",
+            "web-dir": "public"
         }
     }
 }
