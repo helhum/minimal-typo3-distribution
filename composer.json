@@ -10,7 +10,7 @@
         "roave/security-advisories": "dev-master",
         "typo3/cms-core": "^8.7.9",
         "helhum/typo3-secure-web": "^0.2.7",
-        "typo3-console/composer-auto-setup": "^0.3.5",
+        "typo3-console/composer-auto-commands": "^0.2.0",
         "helhum/site-example": "@dev"
     },
     "extra": {
